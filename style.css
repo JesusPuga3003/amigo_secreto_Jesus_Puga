@@ -103,6 +103,13 @@ body {
     font-family: "Merriweather", serif;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+.total-amigos{
+    flex: 1; 
+    font-size: 16px;
+
+    font-family: 'Merriweather';
+  font-style: italic;
+}
 
 /* Estilos de botón */
 button {
@@ -159,4 +166,22 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+.button-order
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color:cornflowerblue ;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.button-order img {
+    margin-right: 40px;
+}
+.button-order:hover {
+    background-color: blue;
 }
